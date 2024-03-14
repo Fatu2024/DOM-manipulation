@@ -10,8 +10,11 @@ mainEl.style.backgroundColor = '#4a4e4d'
 //3. Set the content of mainEl to <h1>DOM Manipulation</h1>. 
 // There are a variety of ways to do this; pick whichever one that you think works best in this situation.
 // mainEl.textContent = 'DOM Manipulation'
-mainEl.innerHTML = 'DOM Manipulation'
+mainEl.innerHTML = '<h1> DOM Manipulation </h1>'
 
 //4. Add a class of flex-ctr to mainEl.
 // Hint: Use the Element.classList API.
-let mainEl
+mainEl.classList.add('flex-ctr');
+
+// Part 2: Creating a Menu Bar
+// Select and cache the <nav id="top-menu"> element in a variable named topMenuEl.
